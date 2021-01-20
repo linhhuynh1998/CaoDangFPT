@@ -1,0 +1,434 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    width: 90%!important;
+    margin: 0 auto!important;
+    padding: 0;
+}
+#responsive a{
+    text-transform: uppercase;
+    color: #283054;
+    font-weight: 700;
+    transition: all .2s ease-in;
+    font-size: 14px;
+}
+#responsive a:hover{
+    color: #f7941d;
+}
+#images-bg{
+    background-image: url("https://caodang.fpt.edu.vn/wp-content/uploads/BannerWeb_1500x750.png");
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+.mt-n4-5{
+    margin-top: -21px!important;
+}
+.bg-check{
+    background: url("https://i.imgur.com/KCDykem.jpg");
+    width: 100%;
+    height: 51vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+.container{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 7rem;
+}
+.media-body h4 {
+    position: absolute;
+    top: 7.5rem;
+    left: 45%;
+    color: #ee3c45;
+    font-weight: bold;
+    font-size: 30px;
+    transform: translate(-11rem -45%);
+}
+.media-body p {
+    position: absolute;
+    top: 10rem;
+    left: 45%;
+    color: #283054;
+    font-weight: 700;
+}
+.flex-position{
+    background-color: #ebebeb;
+    position: relative;
+    top: -50px;
+}
+.bg-boxitem{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+    background-color: #283054;
+}
+.bg-boxitem-yellow{
+    width: 100%;
+    height: auto;
+    padding-bottom: 81px;
+    background-color: #f7941d;
+}
+.color-white{
+    color: white;
+}
+.box-item-h5:after{
+    content: '';
+    position: absolute;
+    left: 6%;
+    top: 20%;
+    width: 40px;
+    height: 1px;
+    background: #fff200;
+    margin-bottom: 5px;
+}
+.cmt{
+    color: #ee3c45;
+    font-weight: 700;
+}
+.cmt:hover{
+    text-decoration: none;
+    color: #ee3c45;
+}
+.box-item-title{
+    font-weight: 600;
+}
+.bg-dark-1{
+    background-color: #ebebeb;
+}
+.position{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-10%,-20%);
+    text-align: center;
+}
+.position h5{
+    color: #283054;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.button{
+    color: #ff6600!important;
+    font-size: 33px !important;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+.bg-success{
+    width: 100%;
+    height: auto;
+    padding-bottom: 400px;
+    background-image: url("https://caodang.fpt.edu.vn/wp-content/uploads/3dfgd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-fluid.bg-success::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: auto;
+    padding-bottom: 514px;
+    left: 0;
+    margin-top: 0px!important;
+    opacity: .45;
+    background: #272f54;
+    display: inline;
+}
+.mt-n5-5{
+    margin-top: -50px!important;
+}
+.check-post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 12rem;
+    position: relative;
+    color: white;
+    z-index: 99999;
+}
+.check-post h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+.check-post p::after{
+    content: '';
+    position: absolute;
+    width: 215px;
+    height: 2px;
+    background: #f25113;
+    left: 50%;
+    top: 130%;
+    transform: translate(-50%,-130%);
+}
+.check-post1 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15rem;
+    position: relative;
+    color: white;
+}
+.check-post1 h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15rem;
+    position: relative;
+    color: white;
+}
+.check-post1 .btn-dangky{
+    position: absolute;
+    top: 300%;
+    left: 75%;
+    transform: translate(-200%,90%);
+    color: white;
+    border-radius: 0 !important;
+    padding: 15px 40px 16px;
+    font-size: 18px;
+    background: #f25113;
+    line-height: 1;
+    transition: all .3s;
+    font-weight: 500;
+}
+.check-post1 .btn-dangky:hover{
+    background: #f7941d;
+}
+#checkhr::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background:#f7941d
+}
+.bg-dark-192{
+    width: 100%;
+    height: auto;
+    background-color:#192041 ;
+    padding-bottom: 2rem;
+}
+.mt-6{
+    margin-top: 4rem!important;
+}
+.full-width{
+    width: 100%;
+}
+.icon{
+    float: left;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: 15px;
+    text-align: center;
+    
+}
+.mt-n9{
+    margin-top: -1px!important;
+}
+.clear{
+    clear: both;
+}
+
+.icon a i{
+    font-size: 23px;
+    color: white;
+}
+.check-hr h2::after{
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 2px;
+    text-align: center;
+    background: chocolate;
+    left: 45%;
+    top: 0;
+    margin-top: 3rem;
+}
+
+.padding {
+    padding: 3rem
+}
+
+.owl-carousel .item {
+    margin: 3px
+}
+
+.owl-carousel .item img {
+    display: block;
+    width: 200px!important;
+    height: 100px!important
+}
+.owl-prev,.owl-next{
+    display: none;
+}
+.content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden
+}
+
+.content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.content:hover .content-overlay {
+    opacity: 1
+}
+
+.content-image {
+    width: 100%;
+    height: 250px;
+}
+img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1
+}
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+
+.content-details p {
+    color: #fff;
+    font-size: 0.8em
+}
+
+.fadeIn-bottom {
+    top: 80%
+}
+.content-text{
+    letter-spacing: 0;
+}
+.jumbotron-fluid .col-md-3{
+    padding:0;
+    margin: 0;
+}
+.content-1::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .68;
+    background-color: #272f54;
+    z-index: 99;
+}
+.content-2::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .68;
+    background-color: #842990;
+    z-index: 99;
+}
+.content-3::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .68;
+    background-color: #3cb878;
+    z-index: 99;
+}
+.content-4::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .68;
+    background: #db881c;
+    z-index: 99;
+}
+.content-5::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .68;
+    background-color: #004a80;
+    z-index: 99;
+}
+.content-6::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .68;
+    background-color: #f26522;
+    z-index: 99;
+}
